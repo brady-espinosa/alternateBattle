@@ -1,0 +1,31 @@
+FIRST EPIC
+
+YES - 1. create board of 10 by 10 grid
+
+
+no- 2. when user clicks a position, position changes color (showing it's been torpedoed)
+
+no - 3. create a counter to track how many torpedoes used
+
+4. once a position has been torpedoed, can't be torpedoed again
+
+5. have 5 single length ships displayed on the board (user's ships)
+
+Hint: Create a global variable called board and have it hold an empty array. Have that empty array hold 10 empty arrays, creating a 2d array.
+Hint: Create a global constant SHIP variable with a value of 1.
+Hint: Create a loop that accesses the board at a random row and column and places a SHIP.
+
+
+6. when clicking on a position, change color (or other way of noting) to show a ship was located there and has been hit (and hit count goes up hell yeah)
+
+Hint: Create a .onclick function to check the board for the presence of a SHIP.
+If nothing is there it is a MISS.
+If a SHIP is there, it will be a HIT.
+
+7. winning condition: 5 hits on the board. Notify user when game is won and over
+
+8. Limit of 25 torpedoes. When torpedoes run out, game over
+
+9. As a user if I lose, I can see where the ships were, so that I know there were actual ships on the board.
+
+Hint: Use a document.getElementById("myDiv").className to modify the existing sections.
